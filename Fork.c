@@ -8,18 +8,18 @@ pid_t pid;
 pid = Fork();
 if (pid == -1)
 {
-perror("unsuccessful/n");
+perror("unsuccessful\n");
 return (1);
 }
 if (pid == 0)
 {
 sleep(40);
-printf("I am the child/n");
+printf("I am the child\n");
 }
 else
 {
 ppid = getpid();
-printf("I am the parent/n");
+printf("I am the parent\n");
 }
 return (0);
 }
