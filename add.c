@@ -1,5 +1,10 @@
 #include<stdio.h>
 #include<unistd.h>
+/**
+ * main - main
+ * entry point
+ * Return: void
+ **/
 int main(void)
 {
 int a = 3;

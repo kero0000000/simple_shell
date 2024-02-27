@@ -1,5 +1,10 @@
 #include<stdio.h>
 #include<unistd.h>
+/**
+ * main - main
+ * entry type
+ * Return: void
+ **/
 int main(void)
 {
 pid_t pid;

@@ -2,6 +2,11 @@
 #include<unistd.h>
 #include<sys/type.h>
 #include<stdlib.h>
+/**
+ * main - main
+ * entry type
+ * Return: void
+ **/
 int main(void)
 {
 pid_t pid;
