@@ -8,7 +8,7 @@
 int main(void)
 {
 size_t = 10;
-char *buf = malloc(sizeof(char) * n);
+char *buf = NULL;
 printf("Enter name");
 getline(&buf, &n, stdin);
 printf("Name is %sBuffer size is %ld\n", buf, n);
