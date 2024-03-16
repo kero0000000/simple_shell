@@ -23,7 +23,7 @@ printf("I am the child\n");
 }
 else
 {
-ppid = getpid();
+pid = getpid();
 printf("I am the parent\n");
 }
 return (0);

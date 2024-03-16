@@ -7,7 +7,7 @@
  **/
 int main(void)
 {
-size_t = 10;
+size_t n = 10;
 char *buf = NULL;
 printf("Enter name");
 getline(&buf, &n, stdin);
