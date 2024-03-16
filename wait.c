@@ -1,7 +1,7 @@
-#include<stdio.h>
-#include<unistd.h>
-#include<sys/type.h>
-#include<stdlib.h>
+#include <stdio.h>
+#include <unistd.h>
+#include <sys/type.h>
+#include <stdlib.h>
 /**
  * main - main
  * entry type
