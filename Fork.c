@@ -10,7 +10,7 @@ int main(void)
 pid_t pid;
 /* written before Fork was called */
 /* called Fork */
-pid = Fork();
+pid = fork();
 if (pid == -1)
 {
 perror("unsuccessful\n");
