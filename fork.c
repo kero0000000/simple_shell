@@ -8,6 +8,7 @@
 int main(void)
 {
 pid_t pid;
+ pid = fork();
 printf("Before fork i was one\n");
 fork();
 if (pid == -1)
